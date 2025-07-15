@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Text Dir Area via CDN</title>
+    <script type="module" src="../dist/pmd-textarea.umd.js"></script>
+  </head>
+  <body>
+    <h3>custom bi direction textarea Box</h3>
+    <pmd-textarea id="myEditor" placeholder="Type your message..."></pmd-textarea>
+
+    <script>
+        const el = document.getElementById('myEditor');
+        window.addEventListener('DOMContentLoaded', () => {
+          el.value = "# درود بر شما\nسلام دنیا\n**سلام بر شما**";
+          // Set cursor at character 6 (right after "Hello\n")
+          el.focus();
+          // Place caret after "Hello\n" (index 6)
+          setTimeout(() => {
+            el.setSelectionRange(6); // cursor after "Hello\n"
+          }, 100);
+        });  
+        // el.addEventListener('input', () => {
+        //     console.log("Plain value:", el.value);
+        // });
+    </script>
+  </body>
+</html>
