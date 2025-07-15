@@ -10,7 +10,7 @@ Built on [ShahNeshan](https://github.com/ShahroozD/ShahNeshan) for fast and accu
 Load directly from JSDelivr:
 
 ```html
-<script type="module" src="https://cdn.jsdelivr.net/gh/ShahroozD/pmd-textarea/index.js"></script>
+<script type="module" src="https://cdn.jsdelivr.net/gh/ShahroozD/pmd-textarea/dist/pmd-textarea.umd.js"></script>
 ````
 
 ---
