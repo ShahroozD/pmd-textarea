@@ -1,7 +1,7 @@
 # persian-markdown-textarea
 
 A custom `<pmd-textarea>` web component for live, bi-directional (RTL/LTR) Markdown editing — with full support for Persian, Arabic, and Latin text.  
-Built on [ShahNeshan](https://github.com/shahrooz/shahneshan) for fast and accurate Markdown rendering.
+Built on [ShahNeshan](https://github.com/ShahroozD/ShahNeshan) for fast and accurate Markdown rendering.
 
 ---
 
